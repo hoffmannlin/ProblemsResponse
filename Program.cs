@@ -24,7 +24,7 @@ namespace ProblemsResponse
         const string token = "";
         const string aiUrl = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions";
         const string aiKey = "sk-";
-        const string aiModel = "qwen3-235b-a22b";
+        const string aiModel = "qwen3-coder-480b-a35b-instruct";
         static string rootPath = @"E:\Codes\FocusNew";
         private static int isProcessing = 0; // 0 = idle, 1 = processing
 
